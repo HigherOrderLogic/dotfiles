@@ -1,2 +1,9 @@
 alias ff="fastfetch"
 
+function gfrb() {
+  if [[ -z $2 ]] then
+    git fetch $1
+  else
+    git fetch $1 && git rebase $1/$2
+  fi
+}
