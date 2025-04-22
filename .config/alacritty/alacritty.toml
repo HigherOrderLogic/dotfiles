@@ -1,6 +1,9 @@
 [window]
 padding = { x = 15, y = 15 }
 
+[cursor]
+smooth_motion_factor = 0.6
+
 [mouse]
 bindings = [
   { mouse = "Right", mods = "Control", action = "Paste" },
